@@ -12,18 +12,23 @@
 
 
 \title{Kravspesifikasjon}
-\author{}
+\author{Jonas Braut \\ Sivert Skarning \\ Nikolai Svanåsbakken \\ Amalie Y. Ressler}
 \date{Oktober 2019}
 
 \begin{document}
 
 \maketitle
+\newpage
+\tableofcontents
+\newpage
+\section{Prosjektoppgave}
 
-\section{Introduksjon}
 
 \section{Krav}
+Systemets kravspesifikasjon inneholder de teknisk funksjonelle og ikke-funksjonelle kravene til systemet, og hvordan systemet fungerer i sin helhet.
 \subsection{Funksjonelle krav}
 \begin{legal}
+
     \item Webside
     \begin{legal}
         \item Alle skal kunne se kalender for inneværende måned med arrangementer og trykke seg tilbake til forrige måned eller frem til neste måned.
@@ -65,7 +70,7 @@
     \end{legal}
     \item API
     \begin{legal}
-        \item Systemet skal kunne ta i mot tabeller med data og importere det til database (på hvilket format?)
+        \item Systemet skal kunne ta i mot data og importere det til database.
         \item Systemet skal bare gi lese rettigheter til webside.
     \end{legal}
     
@@ -93,11 +98,12 @@
     \item Administrator
 \end{legal}
 
-\section{Prosjektets tidsestimater}
+\section{Prosjektets arbeidsomfang}
 Prosjektets krav er blitt estimert for å bedre kunne prioritere og delegere arbeidsoppgaver. Nedenfor finner du tabeller sortert etter krav, med tilhørende tidsestimat og prioritet.\newline
-Tidsestimat og prioritet er gitt ved t-skjorte størrelser. Dette gjør det lettere for teamet å kunne sortere arbeidsoppgaver etter omfang uten at man føler seg bundet av at en oppgave skal ta et spesifikt anatall timer eller dager. Estimering av antall timer er umulig og det blir derfor nyttigere å gi arbeidsoppgaver en tidsfrist i stedet.
+Tidsestimat og prioritet er gitt ved t-skjorte størrelser. Dette gjør det lettere for teamet å kunne sortere arbeidsoppgaver etter omfang uten at man føler seg bundet av at en oppgave skal ta et spesifikt anatall timer eller dager. Estimering av antall timer er umulig og det blir derfor nyttigere å angi arbeidsomfang med t-skorte størrelser. Størrelsene er small, medium og large.
 \subsection{Nettsted}
-\begin{table}[h]
+Nettstedets krav har blitt sortert det er blitt gjort estimat av arbeidsomfang og prioritet etter t-skjorte størrelser.
+\begin{table}[ht]
 \begin{tabular}{|l|l|l|}
 \hline
 Krav              & Tidsestimat & Prioritet \\ \hline
@@ -107,8 +113,9 @@ Krav              & Tidsestimat & Prioritet \\ \hline
 1.11              & M           & M         \\ \hline
 \end{tabular}
 \end{table}
-\subsection{Java-applikasjon}
-\begin{table}[h]
+\subsection{Applikasjon}
+Applikasjonenes krav har blitt sortert det er blitt gjort estimat av arbeidsomfang og prioritet etter t-skjorte størrelser.
+\begin{table}[ht]
 \begin{tabular}{|l|l|l|}
 \hline
 Krav & Tidsestimat & Forretningsnytte \\ \hline
@@ -151,4 +158,7 @@ Krav & Tidsestimat & Forretningsnytte \\ \hline
     \includegraphics[scale=0.7]{images/post-athletes-api-call.png}
     \caption{POST kall for opplastning av utøvere}\label{fig:post-at-api}
 \end{figure}
+
+\section{Lagdeling}
+
 \end{document}
